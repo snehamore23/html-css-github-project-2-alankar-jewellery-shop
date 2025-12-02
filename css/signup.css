@@ -45,3 +45,22 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+.right-box {
+    flex: 1;
+    background: #1c2a3e;
+    padding: 40px 60px;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #60ffe9;
+    margin-bottom: 30px;
+}
