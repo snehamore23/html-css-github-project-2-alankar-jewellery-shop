@@ -24,9 +24,9 @@ body {
 }
 
 .card-1:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-1-img {
@@ -61,7 +61,7 @@ body {
 
 .buy-now-btn {
     background-color: #07bc0c;
-    color: black;
+    color:white;
     border-radius: 10px;
     padding: 12px 22px;
     margin: 0px 70px;
@@ -82,9 +82,9 @@ body {
 }
 
 .card-2:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-2-img {
@@ -115,9 +115,9 @@ body {
 }
 
 .card-3:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-3-img {
@@ -148,9 +148,9 @@ body {
 }
 
 .card-4:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-4-img {
@@ -188,9 +188,9 @@ body {
 }
 
 .card-5:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+   box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-5-img {
@@ -221,9 +221,9 @@ body {
 }
 
 .card-6:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-6-img {
@@ -254,9 +254,9 @@ body {
 }
 
 .card-7:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+   box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-7-img {
@@ -287,9 +287,9 @@ body {
 }
 
 .card-8:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-8-img {
@@ -332,9 +332,9 @@ body {
 }
 
 .card-9:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+   box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-9-img {
@@ -364,9 +364,9 @@ body {
 }
 
 .card-10:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+    box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-10-img {
@@ -397,9 +397,9 @@ body {
 }
 
 .card-11:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+   box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-11-img {
@@ -429,9 +429,9 @@ body {
 }
 
 .card-12:hover {
-    box-shadow: 0px 0px 10px 3px #333333;
-    transition: 1.5s;
-    background-color: #9eefa1;
+   box-shadow: 0px -5px 10px 3px #333333;
+    transition: 0.5s;
+    background-color: #caeccb;
 }
 
 .card-12-img {
