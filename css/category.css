@@ -76,16 +76,18 @@ body {
     font-size: 15px;
     font-size: 15px;
 }
-.buy-now-btn {
+
+.buy-now-btn:hover {
     background-color: #192d1d;
 }
+
 .card-2 {
     background-color: white;
     width: 260px;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -118,7 +120,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -228,7 +230,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -261,7 +263,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -294,7 +296,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -344,7 +346,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -377,7 +379,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -410,7 +412,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -452,6 +454,7 @@ body {
     transition: 0.5s;
     background-color: #effcef;
 }
+
 .card-12-img {
     height: 210px;
     width: 200px;
@@ -486,7 +489,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -519,7 +522,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -585,7 +588,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -701,7 +704,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -734,7 +737,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -811,7 +814,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -844,7 +847,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -877,7 +880,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -927,7 +930,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -960,7 +963,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -993,7 +996,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -1066,7 +1069,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -1099,7 +1102,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -1132,7 +1135,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
@@ -1165,7 +1168,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-     box-shadow: 0px 0px 3px 1px #333333;
+    box-shadow: 0px 0px 3px 1px #333333;
     border: 0.5px solid #737373;
 }
 
