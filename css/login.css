@@ -11,19 +11,17 @@
     border-radius: 10px;
 }
 
-body
-    {
+body{
     background-color: #fffbe6;
     font-family: 'Times New Roman', Times, serif;
     padding-top: 100px;
-     }
+}
      
-     .parent{
-                
-        height: 400px;
-        width:100px;
-        border: solid 2px black;
-    }
+.parent{
+     height: 400px;
+    width:100px;
+    border: solid 2px black;
+}
     .parent:hover{
     border: solid 2px green;
     transition: 2s;
@@ -32,56 +30,64 @@ body
     
 
 .parent{
-    background-color:;
+    background-color:white;
     height:440px;
     width: 500px;
     justify-content: center;
-    margin-left: 400px;
+    margin-left: 80px; 
     margin-top:40px;
     border: 2px solid#9c7135;
-   color:#03203A;;
-
+    color:#03203A;
     padding-bottom: 10px;
     display: flex;
     border-radius: 10px;
     padding-top: none;
     box-shadow: 5px 10px 3px #9c7135;
-    }
+ }
     .parent:hover{
     box-shadow: 5px 10px 10px 2px #6d6c6c;
     transition: 0.5s;
     background-color: #e1f5e2;
+}
 
-    }
 
-    .btn{
-    padding:8px 60px;
+    .btn2{
+    padding:8px 80px;
+    border-radius:5px;
+    box-shadow: 4px 5px 2px  #9c7135;
+}
+
+   .text1{
+    text-align: center;
+    color:#fa970d;
+    font-size: 36px;
+}
+  
+    .parent-2{
+  display:flex; 
+ }
+
+    .text3{
+    color: white;
+ }
+
+ .btn{
+    padding:10px 60px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom:none;
-    background-color:rgb(6, 187, 6);
+    background-color:#31443b;
     text-align: center;
     box-shadow: 2px 2px 2px rgb(23, 78, 23);
     margin-left: 80px;
     color: white;
-    }
+    font-size: 18px;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 
-    .text_size{
-        size: 20px;
-    }
-     .btn2{
-    padding:8px 80px;
-    border-radius:5px;
-    box-shadow: 4px 5px 2px  #9c7135;;
-   }
-   .text1{
-    text-align: center;
-    color:#d8830c;
-   }
- .text3{
-   color: #03203A;
- }
-
- .p1{
-    text-align: center;
+ .btn:hover {
+    background-color: #192d1d;
+    box-shadow: rgba(41, 72, 59, 0.4);
  }
