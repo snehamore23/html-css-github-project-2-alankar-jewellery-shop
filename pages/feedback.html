@@ -1,9 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>feedback</title>
+    <title>Alankar Jewellers</title>
+    <link rel="stylesheet" href="./../css/feedback.css">
 </head>
 <body>
-    
+    <header class="navbar">
+        <div class="left-section">
+            <img src="./../images/logo-png.png" class="logo" alt="logo">
+            <h2 class="brand-name">Alankar Jewellers</h2>
+        </div>
+        <nav class="center-links">
+            <a href="./index.html">Home</a>
+            <a href="./pages/about.html">About Us</a>
+            <a href="./pages/category.html">Category</a>
+            <a href="./pages/contact.html">Contact Us</a>
+            <a href="./pages/feedback.html">Feedback</a>
+            <a href="./pages/booking.html">Booking</a>
+        </nav>
+        <div class="right-links">
+            <a href="./pages/login.html">Login</a>
+            <a href="./pages/signup.html">Sign Up</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Jewellery Store Feedback Form</h2>
+        <form>
+            <label>Name:</label>
+            <div class="row">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+
+            <label>Email:</label>
+            <input type="email" placeholder="example@gmail.com">
+
+            <label>Phone Number:</label>
+            <input type="text" placeholder="(000) 000-000">
+
+            <label>Service Type</label>
+            <select>
+                <option>Buying Jewellery</option>
+                <option>Repair Service</option>
+                <option>Custom Design</option>
+                <option>Cleaning / Polishing</option>
+            </select>
+
+            <label>Rate Your Experience</label>
+            <div class="star-rating">★★★★★</div>
+
+            <label>What did you like?</label>
+            <div class="options">
+                <label><input type="checkbox"> Staff Behaviour</label>
+                <label><input type="checkbox"> Product Quality</label>
+                <label><input type="checkbox"> Store Cleanliness</label>
+                <label><input type="checkbox"> Pricing & Discounts</label>
+            </div>
+
+            <label>Additional Comments</label>
+            <textarea placeholder="Write your feedback here..."></textarea>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="./../images/logo-png.png" width="50px" />
+                <h3>Alankar Jewellers</h3>
+                <p>Discover timeless elegance...</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="./../index.html">Home</a>
+                <a href="./pages/about.html">About Us</a>
+                <a href="./pages/category.html">Collections</a>
+                <a href="./pages/contact.html">Contact Us</a>
+                <a href="./pages/feedback.html">Feedback</a>
+                <a href="./pages/booking.html">Booking</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>📍123 near charch gate mumbai, India</p>
+                <p><a href="tel:+919876543210">📞 +91 98765 43210</a></p>
+                <p><a href="mailto:moresneha806@gmail.com">✉️ moresneha806@gmail.com</a></p>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./../images/facebook.png" class="social-icon"> Facebook
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./../images/insta-logo.jpg" class="social-icon"> Instagram
+                </a>
+
+                <a href="https://wa.me/919876543210" target="_blank">
+                    <img src="./../images/whatsapp.png" class="social-icon"> WhatsApp
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="./../images/twitter-logo.png" class="social-icon"> Twitter
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Alankar Jewellers. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
