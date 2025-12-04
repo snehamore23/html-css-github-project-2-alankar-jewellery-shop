@@ -70,17 +70,14 @@ body {
     font-weight: 800;
     transition: 0.3s;
 }
-
 .right-links a:hover {
     color: gold;
 }
-
 .banner-logo {
     margin: 0;
     padding: 0;
     display: block;
 }
-
 .best-sellers-title {
     text-align: center;
     color: #a86201;
@@ -90,14 +87,12 @@ body {
     font-weight: 800;
     letter-spacing: 2px;
 }
-
 .products-container {
     display: flex;
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
 }
-
 .product-card {
     width: 260px;
     background-color: white;
