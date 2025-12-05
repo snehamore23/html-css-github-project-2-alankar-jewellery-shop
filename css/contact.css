@@ -187,9 +187,11 @@
             font-weight: bold;
         }
 
-        button:hover {
-            background: #a1745c;
-        }
+        
+        .btn:hover {
+    background-color: #192d1d;
+    box-shadow: rgba(41, 72, 59, 0.4);
+ }
 
         .info-box {
             margin-top: 40px;
