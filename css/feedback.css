@@ -9,9 +9,13 @@ body {
     background-color: #a86201;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 12px 40px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .left-section {
@@ -71,7 +75,7 @@ body {
 
 .container {
     max-width: 650px;
-    margin: 30px auto;
+    margin: 100px auto;
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -123,28 +127,51 @@ textarea {
 }
 
 .submit-btn {
-    margin-top: 25px;
-    background: #31443b;
-    color: white;
-    padding: 14px;
-    width: 100%;
-    border: none;
+    padding: 12px 40px;
     border-radius: 10px;
+    background-color: #31443b;
+    color: white;
     font-size: 18px;
+    font-weight: 600;
+    border: none;
     cursor: pointer;
-    transition: 0.3s ease;
-}
 
-.submit-btn:hover {
-   background-color: #192d1d;
-    box-shadow: rgba(41, 72, 59, 0.4);
+    /* हे दोन lines बटण center मध्ये आणतात */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px rgb(23, 78, 23);
+    text-align: center;
 }
 
 .star-rating {
-    font-size: 28px;
+    direction: rtl;
+    display: inline-flex;
+    font-size: 35px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.star-rating input:checked~label {
     color: #ff9900;
-    letter-spacing: 5px;
-    margin-top: 5px;
+}
+
+.star-rating label:hover,
+.star-rating label:hover~label {
+    color: #ff9900;
 }
 
 
@@ -170,7 +197,7 @@ textarea {
     }
 }
 
- footer {
+footer {
     background-color: #a86201;
     color: white;
     padding: 40px 50px 20px 50px;

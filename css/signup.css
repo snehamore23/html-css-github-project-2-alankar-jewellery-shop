@@ -1,174 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    padding: 0;
     background-color: #fffbe6;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    
 }
-.navbar {
-    background-color:#a86201; 
-    color: white;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 12px 40px;
-}
-.left-section {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
+
 .logo {
-    height: 60px;
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+
+.parent {
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    margin-left: 80px;
+    margin-top: 40px;
+    border: 2px solid #9c7135;
+    color: #03203A;
+    border-radius: 10px;
+    box-shadow: 5px 10px 3px #9c7135;
+    font-size: 18px;
+}
+
+.parent:hover {
+    box-shadow: 5px 10px 10px 2px #6d6c6c;
+    transition: 0.5s;
+    background-color: #e1f5e2;
+}
+
+.btn2 {
+    width: 100%;
+    padding: 10px;
     border-radius: 5px;
-}
-.brand-name {
-    color: white;
-    margin: 0;
-    font-size: 30px;
-    font-weight:dark;
-}
-.center-links {
-    display:flex;
-    gap: 50px;
-    margin: 0;     
-    padding: 0;
-}
-.center-links a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    font-weight: 800;
-    transition: 0.3s;
-}
-.center-links a:hover {
-    color: darkorange;
-}
-.right-links {
-    display: flex;
-    gap: 25px;
-}
-.right-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    transition: 0.3s;
-    font-weight: 800;
-}
-.right-links a:hover {
-    color: darkorange;
+    box-shadow: 4px 5px 2px #9c7135;
+    border: 1px solid #555;
 }
 
 
-.container {
-    display: flex;
-    height: calc(100vh - 100px);
-}
-
-
-.left-box {
-    flex: 1;
-    background-image: url("https://pngadgilandsons.com/wp-content/uploads/2025/07/Collection-Banner.jpg");
-    ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hexagon {
-    width: 250px;
-    height: 250px;
-    background: white;
-    clip-path: polygon(
-        25% 5%, 75% 5%, 100% 50%, 
-        75% 95%, 25% 95%, 0% 50%
-    );
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text1 {
     text-align: center;
-    font-weight: bold;
-    color: #c5c20c;
-    font-size: 22px;
+    color:  #a86201;
+    font-size: 36px;
 }
 
-
-.right-box {
-    flex: 1;
-    padding: 60px;
-    
-}
-.right-box:hover{
-    border: solid 2px green;
-    transition: 2s;
-    background-color: #caeccb;
-}
-
-.title {
-    font-size: 32px;
-    color: #a86201;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: 800;
-}
-
-
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.form label {
+.btn{
+    padding:10px 50px;
+    border-radius: 10px;
     margin-top: 10px;
-    font-size: 16px;
-    color: #333;
-    font-weight: 600;
-}
-
-.form input {
-    margin-top: 5px;
-    padding: 12px;
-    border: 1px solid #0a0909;
-    border-radius: 5px;
-    font-size: 16px;
-    outline: none;
-}
-
-.form input:focus {
-    border: solid 2px rgb(218, 179, 7);
-    transition: 1s;
-    background-color: #caeccb;
-   
-    
- 
-}
-
- .paregraf{
+    margin-bottom:none;
+    background-color:#31443b;
     text-align: center;
-    text-decoration: none;
-    color:#f4f5f7;
-    font-size: 20px;
-  
- }
-
-  .text{
-    color:#e8ebee;
-    text-decoration: none;
- }
-
-.btn {
-    margin-top: 20px;
-    padding: 12px;
-    background:#a86201;
+    box-shadow: 2px 2px 2px rgb(23, 78, 23);
+    margin-left: 130px;
     color: white;
     font-size: 18px;
-    font-weight: bold;
     border: none;
-    border-radius: 5px;
+    transition: 0.3s ease;
     cursor: pointer;
+    
 }
-
 
  .btn:hover {
     background-color: #192d1d;
@@ -177,156 +76,53 @@ body {
 
 
 
-footer {
-    background-color: #a86201;
-    color: white;
-    padding: 40px 50px 20px 50px;
-}
 
-.footer-container {
+.parent-2 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
 }
 
-.footer-container div {
-    flex: 220px;
+
+.responsive-img{
+    width: 650px;
+    height: 700px;
 }
 
-.footer-about h3 {
-    margin-bottom: 10px;
-    font-size: 24px;
-}
 
-.footer-links a,
-.footer-social a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 6px;
-    transition: 0.3s;
-}
-
-.footer-links a:hover,
-.footer-social a:hover {
-    color: darkorange;
-}
-
-.footer-contact a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-contact a:hover {
-    color:darkorange;
-}
-
-.social-icon {
-    height: 22px;
-    width: 22px;
-    margin-right: 8px;
-    vertical-align: middle;
-    border-radius: 4px;
-}
-
-.footer-bottom {
+.paregraf {
     text-align: center;
-    margin-top: 25px;
-    border-top: 1px solid #ffffff80;
-    padding-top: 10px;
-    font-size: 14px;
+    color:#e8e8ee;
+    font-size: 20px;
 }
 
-@media (max-width: 1100px) {
+.paregraf1 {
+    text-align: center;
+    color:#0b0b0e;
+    font-size: 20px;
+}
+.text3 {
+    color: #03203A;
+    text-decoration: none;
+}
 
-    .navbar {
+
+@media (max-width: 1024px) {
+    .parent {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .responsive-img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    .parent-2 {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        gap: 15px;
-        padding: 20px;
-        text-align: center;
     }
 
-    .left-section,
-    .center-links,
-    .right-links {
+    .responsive-img {
         width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .center-links {
-        gap: 25px;
-    }
-
-    .right-links {
-        gap: 20px;
-    }
-}
-
-@media (max-width: 900px) {
-
-    .brand-logo {
-        width: 70px;
-        height: 70px;
-    }
-
-    .brand-text {
-        font-size: 24px;
-    }
-
-    .center-links a,
-    .right-links a {
-        font-size: 18px;
-    }
-
-    footer {
-        text-align: center;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .brand-logo {
-        width: 60px;
-        height: 60px;
-    }
-
-    .brand-text {
-        font-size: 22px;
-    }
-
-    .center-links a,
-    .right-links a {
-        font-size: 18px;
-    }
-
-}
-
-@media (max-width: 600px) {
-    footer {
-        padding: 25px 15px;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-container div {
-        width: 100% !important;
-        margin-bottom: 20px;
-    }
-
-    .footer-links a,
-    .footer-social a {
-        font-size: 14px;
-        margin: 4px 0;
-    }
-
-    .footer-bottom {
-        font-size: 12px;
     }
 }
