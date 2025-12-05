@@ -331,6 +331,13 @@ footer.main {
     padding-left: 20px;
     position: relative;
 }
+/*card color */
+.pragraph-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color {
+    color: #e88d3e;
+}
 /* Add a subtle icon/bullet point */
 .mission-vision ul li::before {
     content: '💎';
@@ -447,11 +454,4 @@ footer {
     margin: 0;
     padding: 0;
     display: block;
-}
-/*card color */
-.pragraph-text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.color {
-    color: #e88d3e;
 }
