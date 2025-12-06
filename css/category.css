@@ -1226,3 +1226,24 @@ body {
     color: #03203A;
     text-align: center;
 }
+@media (max-width: 550px) {
+    .heading-1{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .heading-1{
+       padding-top: 30px;
+    }
+}
+@media (max-width: 900px) {
+    .heading-1{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1100px) {
+    .heading-1{
+       padding-top: 30px;
+    }
+}
