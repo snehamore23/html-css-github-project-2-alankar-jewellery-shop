@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -455,3 +456,13 @@ footer {
     padding: 0;
     display: block;
 }
+<<<<<<< HEAD
+/*card color */
+.pragraph-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color {
+    color: #e88d3e;
+}
+=======
+>>>>>>> c6987f6367504c651714e41a8c55a978417afd16

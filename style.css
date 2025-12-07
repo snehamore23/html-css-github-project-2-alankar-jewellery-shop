@@ -117,7 +117,7 @@ body {
     border-radius: 12px;
     text-align: center;
     box-shadow: 0px 0px 5px 1px #525151;
-    transition: 0.3s;;
+    transition: 0.3s;
 }
 
 .product-card img {
@@ -197,6 +197,7 @@ body {
 
 
 }
+
 
 footer {
     background-color: #a86201;
@@ -288,7 +289,12 @@ footer {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px)  {
+    .banner-logo {
+        width: 90%;
+        margin: auto;
+    }
+}
 
     .brand-logo {
         width: 70px;
@@ -307,9 +313,15 @@ footer {
     footer {
         text-align: center;
     }
-}
+
 
 @media (max-width: 600px) {
+
+    .banner-logo {
+        width: 100%;
+        height: auto;
+    }
+}
 
     .brand-logo {
         width: 60px;
@@ -325,7 +337,7 @@ footer {
         font-size: 18px;
     }
 
-}
+
 
 @media (max-width: 600px) {
     footer {
